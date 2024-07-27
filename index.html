@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img id="profile-photo" alt="Profile Photo">
+        <h1>Ishan Baraiya</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello my name is <b>Ishan Baraiya</b> i am currently studying in <B>M.C.A</B> Gyanmanjari Innovative
+            University and also
+            <b>internship</b> in maxgen technologies pvt.ltd ahmedabad.
+        </p>
+        <p style="line-height: 25px;">
+            As a motivated and enthusiastic web developer, I recently graduated with a degree in Computer Science. I am
+            passionate about building <b>user-friendly</b> and visually appealing websites. With a solid foundation in
+            <b>HTML</b>,
+            <b>CSS</b>, and <b>JavaScript</b>, and hands-on experience with frameworks like <b>Django</b>, I am eager to
+            apply my skills in a
+            professional setting. I have worked on several academic and personal projects, honing my ability to turn
+            design concepts into functional web applications. I am excited to contribute to a dynamic team and grow as a
+            developer, continuously learning and <b>adapting to new technologies</b> and industry best practices.
+        </p>
+    </section>
+    <section id="education">
+        <div class="grid-container">
+            <div class="grid-item">
+                <h6>Education</h6>
+                <hr>
+                <p style="color: rgb(65, 65, 170); font-weight: 600;">BCA &ensp; | &ensp; 2017 TO 2021</p>
+                <p>L.P Savani Satuvababa BCA College Palitana</p>
+                <p>percentage &ensp; : &ensp; 52% Second Class</p>
+                <p style="color: rgb(65, 65, 170); font-weight: 600; padding-top: 5px;">MCA &ensp; | &ensp; 2023 TO 2025
+                </p>
+                <p>Gyanmanjari Innovative Universit Bhavnagar</p>
+                <p>CGPA &ensp; : &ensp; 6.7</p>
+            </div>
+            <div class="grid-item">
+                <h6>Skills</h6>
+                <hr>
+                <ol>
+                    <li>Python</li>
+                    <li>Django</li>
+                    <li>Html</li>
+                    <li>Php(Basic)</li>
+                    <li>JavaScript(Basic)</li>
+                    <li>C++ & C (Basic)</li>
+                </ol>
+            </div>
+            <div class="grid-item">
+                <h6>Experience</h6>
+                <hr>
+                <p style="color: rgb(65, 65, 170); font-weight: 600;">Python / django &ensp; | &ensp; 6 Months</p>
+                <p>Maxgen technologies pvt, Ahmedabad</p>
+                <p style="color: rgb(65, 65, 170); font-weight: 600; padding-top: 5px;">Lab Assistant &ensp; &ensp; | &ensp; 1 year
+                </p>
+                <p>L P Savani satuvababa BCA College Palitana</p>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>COLLOGE MANAGEMENT</h3>
+            <p class="font_style">
+                <a href="#project"><b>L P SAVANI SATUVABABA BCA COLLEGE</b></a>
+                <br>
+                A College Management System is a comprehensive software solution designed to streamline and automate the
+                administrative and academic processes of a college.
+                It typically encompasses:
+                <br>
+                <b>1. Student Management 2. Course Management 3. Faculty Management 4. Library Management
+                    5. Examination Management 6. Communication 7. Reports and Analytics</b>
+                <br>
+                This system enhances efficiency, accuracy, and transparency in college administration.
+            </p>
+        </div>
+        <hr>
+        <div class="project">
+            <h3>E-COMMERCE</h3>
+            <p class="font_style">
+                <a href="#"><b></b></a>
+                An E-Commerce Project involves creating an online platform for buying and selling goods or services. Key
+                components include:
+                <br>
+                <b>1. Online Storefront 2. Product Management 3. Shopping Cart and Checkout 4. Payment Processing
+                    5. Order Management 6. Customer Accounts </b>
+                <br>
+                This project aims to provide a seamless shopping experience, enhance operational efficiency, and drive
+                online sales.
+            </p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ishan Baraiya</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
